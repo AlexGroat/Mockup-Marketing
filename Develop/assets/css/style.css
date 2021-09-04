@@ -1,3 +1,10 @@
+/**********************
+*
+* Author: Alex Groat
+* Date: 4/09/2021
+* Github: https://github.com/AlexGroat/Mockup-Marketing
+***********************/
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,6 +14,8 @@
 body {
     background-color: #d9dcd6;
 }
+
+/* Header */
 
 .header {
     padding: 20px;
@@ -23,6 +32,8 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
+
+/* Style all nav tags */
 
 .header nav {
     padding-top: 15px;
@@ -86,21 +97,29 @@ p {
     background-color: #2589bd;
 }
 
+/* Style all benefit class tags */
+
 .benefit-lead, .benefit-brand, .benefit-cost {
-    margin-bottom: 32px;
+    margin-bottom: 32px; 
     color: #ffffff;
 }
+
+/* Style all benefit header tags */
 
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Style all benefit images */
+
 .benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+
+/* Style all text within the article */
 
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
