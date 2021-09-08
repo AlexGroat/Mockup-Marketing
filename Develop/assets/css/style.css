@@ -1,7 +1,7 @@
 /**********************
 *
 * Author: Alex Groat
-* Date: 4/09/2021
+* Date: 7/09/2021
 * Github: https://github.com/AlexGroat/Mockup-Marketing
 ***********************/
 
@@ -33,9 +33,14 @@ body {
     color: #d9dcd6;
 }
 
-/* Style all nav tags */
+.header ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
 
-.header nav {
+/* Nav*/
+
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -43,13 +48,8 @@ body {
     font-size: 20px;
 }
 
-.header nav ul {
+nav ul {
     list-style-type: none;
-}
-
-.header ul li {
-    display: inline-block;
-    margin-left: 25px;
 }
 
 a {
@@ -80,46 +80,13 @@ p {
     margin-left: 25px;
 }
 
+/* Content and article*/
+
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-/* Style all benefit class tags */
-
-.benefits {
-    margin-bottom: 32px; 
-    color: #ffffff;
-}
-
-/* Style all benefit header tags */
-
-h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* Style all benefit images */
-
-.benefits img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* Style all text within the article */
 
 article {
     margin-bottom: 20px;
@@ -138,6 +105,35 @@ article img {
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
+}
+
+/*Aside bar and benefits*/
+
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.benefits {
+    margin-bottom: 32px; 
+    color: #ffffff;
+}
+
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 }
 
 /* Footer */
